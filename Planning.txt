@@ -1,8 +1,8 @@
 Roadmap for Developing the AI-Based EV Health Monitoring System
 
 Phase 1: Project Planning & Requirement Analysis
-Define Objectives:
 
+Define Objectives:
 
 Predict EV system health, battery status, and motor condition.
 Enable real-time data logging, notifications, and a dashboard for visualization.
@@ -35,10 +35,10 @@ Data Logging System:
 Store data locally first, then sync to the cloud for persistence.
 Ensure timestamps, unique IDs, and error logs are recorded.
 
+
 📊Phase 3: Data Preprocessing & Feature Engineering
+
 Data Cleaning:
-
-
 Handle missing values, outlier detection, and data normalization.
 Noise Reduction Techniques:
 
@@ -51,8 +51,8 @@ Extract meaningful features like temperature trends, voltage drops, and vibratio
 Derive aggregated metrics such as average load, peak temperature, etc.
 
 🧠 Phase 4: AI Model Development
-Dataset Preparation:
 
+Dataset Preparation:
 
 Collect EV telematics data, historical breakdown records, and manufacturer data.
 Model Selection:
@@ -73,8 +73,8 @@ Evaluate with metrics like RMSE, MAE, and accuracy.
 Ensure real-time prediction capability for deployment.
 
 ☁️ Phase 5: Cloud Integration
-Data Storage:
 
+Data Storage:
 
 Use Firebase, AWS IoT, or Azure IoT Hub for secure and scalable storage.
 Design an efficient schema for structured data storage.
@@ -84,9 +84,8 @@ Data Pipeline Implementation:
 Automate data flow between sensors → cloud → AI model → dashboard.
 
 📱 Phase 6: Notification System
+
 Real-time Alerts:
-
-
 Develop a mobile app (using Flutter) for push notifications.
 Integrate FCM or Twilio for SMS/Email alerts.
 Alert Logic:
@@ -95,9 +94,8 @@ Alert Logic:
 Trigger alerts based on predefined conditions like battery overheating, voltage instability, etc.
 
 📈 Phase 7: Dashboard Interface Development
+
 UI Design:
-
-
 Develop an interactive dashboard with Flutter Web, React, or Angular.
 Display metrics like battery health, motor condition, and performance trends.
 Visualization Tools:
@@ -110,9 +108,9 @@ Maintenance Reminders:
 Add reminders for periodic maintenance based on sensor data trends.
 
 🚨 Phase 8: AI Model Deployment
+
+
 Deploy for Edge Prediction:
-
-
 Optimize your model using TensorFlow Lite or OpenVINO for real-time prediction on low-power devices.
 Edge Device Integration:
 
